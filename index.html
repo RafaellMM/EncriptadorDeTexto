@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador de Texto</title>
+</head>
+<body>
+   
+    <header class="logo">
+        <img src="/img/logo alura.png" alt="Logo da Alura">
+    </header>
+
+    <main class="main">
+        <section>
+            <textarea class="input-texto" cols="40" rows="6" placeholder="Digite seu texto..."></textarea>
+            
+            <div><h6 class="informacao">ATENÇÃO:  Apenas letras minúsculas e sem acento</h6></div>
+
+            <div class="botoes">
+                <button class="encriptar" onclick="btnEncriptar()">
+                    Criptografar
+                </button>
+            
+                <button class="desencriptar" onclick="btnDesencriptar()">
+                    Descriptografar
+                </button>
+
+            </div>
+        </section>
+        
+        <section>
+            <textarea class="mensagem" cols="24" rows="9" placeholder="   Nenhuma mensagem encontrada. Digite ao lado seu texto para poder criptografar ou descriptografar"></textarea>
+        
+            <div>
+                <button class="copia" onclick="btnCopiar()">
+                    Copiar
+                </button>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>Criado por RafaellMM | 
+        <a href="https://www.linkedin.com/in/rafael-mm-a13578237/"><img src="/img/linkedin.png" class="perfil"></a>
+        <a href="https://github.com/RafaellMM"><img src="/img/GitHub-Mark-32px.png" class="perfil"></a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

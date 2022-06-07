@@ -1,0 +1,123 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+body{
+    background-image: linear-gradient(rgb(6, 47, 169), rgb(79, 122, 251));
+}
+
+.logo{
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+.main{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.input-texto{
+    margin-top: 70px;
+    background-color: transparent;
+    border-color: transparent;
+}
+.input-texto::placeholder{
+    font-size: 25px;
+    color: black;
+    opacity: 70%;
+}
+
+.mensagem{
+    position: relative;
+    margin-top: 5px;
+    margin-left: 80px;
+    background-image: url("img/boneca.png");
+    opacity: 90%;
+    background-repeat: no-repeat;
+    background-color: rgb(73, 185, 246);
+    border-radius: 24px;
+
+}
+
+.mensagem::placeholder{
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 25px;
+    color: black;
+}
+
+
+.botoes{
+    display: flex;
+    flex-direction: row; 
+    margin-top: 20px;;
+}
+
+.encriptar {
+    background-color: darkblue;
+    color: white;
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 24px;
+    border: 3px solid #000000;
+}
+
+.desencriptar{
+    background-color: darkblue;
+    color: white;
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 24px;
+    border: 3px solid #000000;
+    margin-left: 30px;
+    border-radius: 24px;
+}
+
+.copia{
+    margin-left: 200px;
+    background-color: transparent;
+    color: white;
+    width: 210px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 24px;
+    border: 2px solid #000000;
+}
+
+.informacao{
+    margin-left: 10px; 
+    font-size: 13px;
+    background-repeat: no-repeat
+}
+
+footer{
+	/*texto*/
+	font-family: 'Calibri';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	color: "black";
+}
+
+.perfil{
+	/* disposição*/
+	position: inline-block;
+	width: 20px;
+	height: 20px;
+}
